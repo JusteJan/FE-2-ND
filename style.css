@@ -1,0 +1,65 @@
+.Page {
+    font-family: Arial;
+    margin: 0;
+}
+
+.Header {
+    background-color: #fdfffe;
+    width: 100%
+}
+
+.Header-text {
+    color: #627d80;
+    font-size: 36px;
+}
+
+.Section {
+    display: block;
+    width: 50%;
+}
+.Section-header {
+    color: #fda327;
+    font-size: 16px;
+    text-decoration-style: solid;
+}
+
+.SectionText {
+    font-size: 14px;
+}
+
+.SectionText-link {
+    color: #91a7ac;
+}
+
+.List {
+    display:block;
+}
+
+.ListItem {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5em;
+}
+
+.ListItem::before {
+    color: #fda327;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ListItem--bulletArrow::before {
+    content: "\2794";
+}
+
+.ListItem--bulletDot::before {
+    content: "\2022";
+}
+
+.u-marginLeft2 {
+    margin-left: 2em;
+}
+
+.u-padding0 {
+    padding: 0;
+}
