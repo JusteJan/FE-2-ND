@@ -3,12 +3,12 @@
     margin: 0;
 }
 
-.Header {
+.Title {
     background-color: #fdfffe;
     width: 100%
 }
 
-.Header-text {
+.Title-text {
     color: #627d80;
     font-size: 36px;
 }
@@ -17,7 +17,7 @@
     display: block;
     width: 50%;
 }
-.Section-header {
+.Section-title {
     color: #fda327;
     font-size: 16px;
     text-decoration-style: solid;
@@ -43,6 +43,7 @@
 
 .ListItem::before {
     color: #fda327;
+    content: "\2022";
     position: absolute;
     top: 0;
     left: 0;
@@ -52,11 +53,7 @@
     content: "\2794";
 }
 
-.ListItem--bulletDot::before {
-    content: "\2022";
-}
-
-.u-marginLeft2 {
+.u-marginLeft {
     margin-left: 2em;
 }
 
